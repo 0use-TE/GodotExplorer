@@ -1,4 +1,6 @@
-﻿namespace PlatformExplorer.Player
+﻿using GodotStateMachine;
+
+namespace PlatformExplorer.Player
 {
     internal class PlayerIdleState : BaseState
     {
