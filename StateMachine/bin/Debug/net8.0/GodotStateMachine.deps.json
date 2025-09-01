@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "GodotStateMachine/1.0.0": {
+        "dependencies": {
+          "Chickensoft.Log.Godot": "1.0.34"
+        },
+        "runtime": {
+          "GodotStateMachine.dll": {}
+        }
+      },
+      "Chickensoft.Log/1.1.0": {
+        "runtime": {
+          "lib/net8.0/Chickensoft.Log.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Chickensoft.Log.Godot/1.0.34": {
+        "dependencies": {
+          "Chickensoft.Log": "1.1.0",
+          "GodotSharp": "4.4.1"
+        },
+        "runtime": {
+          "lib/net8.0/Chickensoft.Log.Godot.dll": {
+            "assemblyVersion": "1.0.34.0",
+            "fileVersion": "1.0.34.0"
+          }
+        }
+      },
+      "GodotSharp/4.4.1": {
+        "runtime": {
+          "lib/net8.0/GodotSharp.dll": {
+            "assemblyVersion": "4.4.1.0",
+            "fileVersion": "4.4.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GodotStateMachine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Chickensoft.Log/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yZOq0EPkTO1o/qGmDh6WotNZ0ayb+crUHOmZjY1jmDdO0mpZYndT/zKkQaR487iViYIMD7CfCMCDB5DhNAKX5w==",
+      "path": "chickensoft.log/1.1.0",
+      "hashPath": "chickensoft.log.1.1.0.nupkg.sha512"
+    },
+    "Chickensoft.Log.Godot/1.0.34": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9EKTyD/fMmu8Yr/InH8OUPPyh0xFeTi1vHFYW/leCWUAqMVwqy2JZuGuAxNh+FXh4om1LEMcCFC6AW04tenbFQ==",
+      "path": "chickensoft.log.godot/1.0.34",
+      "hashPath": "chickensoft.log.godot.1.0.34.nupkg.sha512"
+    },
+    "GodotSharp/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ghnQEo5LikQPfbCYcVxje8epffNCiyNG4zvGWUDRZRC1O+653+yqG3wdxk3+5RZsA3jaRuGKRavsGcnhLKe12g==",
+      "path": "godotsharp/4.4.1",
+      "hashPath": "godotsharp.4.4.1.nupkg.sha512"
+    }
+  }
+}
