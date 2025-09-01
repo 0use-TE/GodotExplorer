@@ -1,0 +1,11 @@
+﻿<Project Sdk="Godot.NET.Sdk/4.4.1">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+	  <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Chickensoft.LogicBlocks" Version="5.19.1" />
+    <PackageReference Include="Chickensoft.LogicBlocks.DiagramGenerator" Version="5.19.1" />
+  </ItemGroup>
+</Project>
