@@ -9,6 +9,6 @@
     <PackageReference Include="Chickensoft.LogicBlocks.DiagramGenerator" Version="5.19.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\godotplatformexplorer\StateMachine\GodotStateMachine.csproj" />
+    <ProjectReference Include="..\StateMachine\GodotStateMachine.csproj" />
   </ItemGroup>
 </Project>
