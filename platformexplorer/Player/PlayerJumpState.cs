@@ -1,6 +1,6 @@
-﻿using GodotStateMachine;
+using GodotStateMachine;
 
-namespace PlatformExplorer.Player
+namespace PlatformExplorer.player
 {
     internal class PlayerJumpState : BaseState
     {
