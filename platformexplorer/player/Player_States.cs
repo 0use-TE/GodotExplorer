@@ -13,9 +13,14 @@ namespace PlatformExplorer.player
         {
             public PlayerWalkState(StateMachine sm) : base(sm) { }
         }
-        internal class PlayerAttackState : BaseState
+        internal class PlayerMeleeAttackState : BaseState
         {
-            public PlayerAttackState(StateMachine sm) : base(sm) { }
+            public PlayerMeleeAttackState(StateMachine sm) : base(sm) { }
+        }
+
+        internal class PlayerRemoteAttackState : BaseState
+        {
+            public PlayerRemoteAttackState(StateMachine sm) : base(sm) { }
         }
     }
 }

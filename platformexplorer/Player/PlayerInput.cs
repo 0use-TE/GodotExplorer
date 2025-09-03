@@ -4,8 +4,11 @@ namespace PlatformExplorer.player
 {
     public class PlayerInput
     {
-        public float Horizontal => Input.GetAxis("ui_left", "ui_right");
-        public float Vertical => Input.GetAxis("ui_up", "ui_down");
+        public float Horizontal => Input.GetAxis("move_left", "move_right");
+        public float Vertical => Input.GetAxis("move_up", "move_down");
+
+        public bool MeleeAttack => Input.IsActionJustPressed("melee_attack");
+        public bool RemoteAttack => Input.IsActionJustPressed("remote_attack");
 
     }
 }
