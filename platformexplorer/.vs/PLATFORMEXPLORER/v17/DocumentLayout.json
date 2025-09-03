@@ -7,26 +7,22 @@
       "RelativeMoniker": "D:0:0:{0FBE0DC7-9B25-4E93-8D59-919B67677398}|PlatformExplorer.csproj|solutionrelative:player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0FBE0DC7-9B25-4E93-8D59-919B67677398}|PlatformExplorer.csproj|d:\\\u5E38\u7528\\\u6587\u6863\\godotplatformexplorer\\platformexplorer\\player\\player_states.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FBE0DC7-9B25-4E93-8D59-919B67677398}|PlatformExplorer.csproj|solutionrelative:player\\player_states.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0FBE0DC7-9B25-4E93-8D59-919B67677398}|PlatformExplorer.csproj|d:\\\u5E38\u7528\\\u6587\u6863\\godotplatformexplorer\\platformexplorer\\player\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FBE0DC7-9B25-4E93-8D59-919B67677398}|PlatformExplorer.csproj|solutionrelative:player\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FBE0DC7-9B25-4E93-8D59-919B67677398}|PlatformExplorer.csproj|d:\\\u5E38\u7528\\\u6587\u6863\\godotplatformexplorer\\platformexplorer\\platformexplorer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0FBE0DC7-9B25-4E93-8D59-919B67677398}|PlatformExplorer.csproj|solutionrelative:platformexplorer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81AEA5D1-27E4-E047-C0BE-06B242E5F27E}|..\\StateMachine\\GodotStateMachine.csproj|d:\\\u5E38\u7528\\\u6587\u6863\\godotplatformexplorer\\statemachine\\stateextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FBE0DC7-9B25-4E93-8D59-919B67677398}|PlatformExplorer.csproj|d:\\\u5E38\u7528\\\u6587\u6863\\godotplatformexplorer\\platformexplorer\\player\\playerwalkstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FBE0DC7-9B25-4E93-8D59-919B67677398}|PlatformExplorer.csproj|solutionrelative:player\\playerwalkstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FBE0DC7-9B25-4E93-8D59-919B67677398}|PlatformExplorer.csproj|d:\\\u5E38\u7528\\\u6587\u6863\\godotplatformexplorer\\platformexplorer\\player\\playeridlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FBE0DC7-9B25-4E93-8D59-919B67677398}|PlatformExplorer.csproj|solutionrelative:player\\playeridlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{81AEA5D1-27E4-E047-C0BE-06B242E5F27E}|..\\StateMachine\\GodotStateMachine.csproj|d:\\\u5E38\u7528\\\u6587\u6863\\godotplatformexplorer\\statemachine\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FBE0DC7-9B25-4E93-8D59-919B67677398}|PlatformExplorer.csproj|d:\\\u5E38\u7528\\\u6587\u6863\\godotplatformexplorer\\platformexplorer\\platformexplorer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0FBE0DC7-9B25-4E93-8D59-919B67677398}|PlatformExplorer.csproj|solutionrelative:platformexplorer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81AEA5D1-27E4-E047-C0BE-06B242E5F27E}|..\\StateMachine\\GodotStateMachine.csproj|d:\\\u5E38\u7528\\\u6587\u6863\\godotplatformexplorer\\statemachine\\godotstatemachine.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -45,7 +41,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,19 +57,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GodotStateMachine.csproj",
-              "DocumentMoniker": "D:\\\u5E38\u7528\\\u6587\u6863\\GODOTPLATFORMEXPLORER\\StateMachine\\GodotStateMachine.csproj",
-              "RelativeDocumentMoniker": "..\\StateMachine\\GodotStateMachine.csproj",
-              "ToolTip": "D:\\\u5E38\u7528\\\u6587\u6863\\GODOTPLATFORMEXPLORER\\StateMachine\\GodotStateMachine.csproj",
-              "RelativeToolTip": "..\\StateMachine\\GodotStateMachine.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-02T03:22:33.306Z"
+              "DocumentIndex": 1,
+              "Title": "Player_States.cs",
+              "DocumentMoniker": "D:\\\u5E38\u7528\\\u6587\u6863\\godotplatformexplorer\\platformexplorer\\player\\Player_States.cs",
+              "RelativeDocumentMoniker": "player\\Player_States.cs",
+              "ToolTip": "D:\\\u5E38\u7528\\\u6587\u6863\\godotplatformexplorer\\platformexplorer\\player\\Player_States.cs",
+              "RelativeToolTip": "player\\Player_States.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T17:07:37.414Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "GodotStateMachine.csproj",
+              "DocumentMoniker": "D:\\\u5E38\u7528\\\u6587\u6863\\godotplatformexplorer\\StateMachine\\GodotStateMachine.csproj",
+              "RelativeDocumentMoniker": "..\\StateMachine\\GodotStateMachine.csproj",
+              "ToolTip": "D:\\\u5E38\u7528\\\u6587\u6863\\godotplatformexplorer\\StateMachine\\GodotStateMachine.csproj",
+              "RelativeToolTip": "..\\StateMachine\\GodotStateMachine.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-02T03:22:33.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "StateExtensions.cs",
               "DocumentMoniker": "D:\\\u5E38\u7528\\\u6587\u6863\\godotplatformexplorer\\StateMachine\\StateExtensions.cs",
               "RelativeDocumentMoniker": "..\\StateMachine\\StateExtensions.cs",
@@ -81,11 +91,12 @@
               "RelativeToolTip": "..\\StateMachine\\StateExtensions.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAgwB0AAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T17:12:31.843Z"
+              "WhenOpened": "2025-09-01T17:12:31.843Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerInput.cs",
               "DocumentMoniker": "D:\\\u5E38\u7528\\\u6587\u6863\\godotplatformexplorer\\platformexplorer\\player\\PlayerInput.cs",
               "RelativeDocumentMoniker": "player\\PlayerInput.cs",
@@ -93,43 +104,21 @@
               "RelativeToolTip": "player\\PlayerInput.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T17:02:44.104Z"
+              "WhenOpened": "2025-09-01T17:02:44.104Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerWalkState.cs",
-              "DocumentMoniker": "D:\\\u5E38\u7528\\\u6587\u6863\\godotplatformexplorer\\platformexplorer\\player\\PlayerWalkState.cs",
-              "RelativeDocumentMoniker": "player\\PlayerWalkState.cs",
-              "ToolTip": "D:\\\u5E38\u7528\\\u6587\u6863\\godotplatformexplorer\\platformexplorer\\player\\PlayerWalkState.cs",
-              "RelativeToolTip": "player\\PlayerWalkState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T16:15:48.349Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlayerIdleState.cs",
-              "DocumentMoniker": "D:\\\u5E38\u7528\\\u6587\u6863\\godotplatformexplorer\\platformexplorer\\player\\PlayerIdleState.cs",
-              "RelativeDocumentMoniker": "player\\PlayerIdleState.cs",
-              "ToolTip": "D:\\\u5E38\u7528\\\u6587\u6863\\godotplatformexplorer\\platformexplorer\\player\\PlayerIdleState.cs",
-              "RelativeToolTip": "player\\PlayerIdleState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T16:12:33.405Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "BaseState.cs",
               "DocumentMoniker": "D:\\\u5E38\u7528\\\u6587\u6863\\godotplatformexplorer\\StateMachine\\BaseState.cs",
               "RelativeDocumentMoniker": "..\\StateMachine\\BaseState.cs",
               "ToolTip": "D:\\\u5E38\u7528\\\u6587\u6863\\godotplatformexplorer\\StateMachine\\BaseState.cs",
               "RelativeToolTip": "..\\StateMachine\\BaseState.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAEBUwAcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T15:45:57.33Z"
+              "WhenOpened": "2025-09-01T15:45:57.33Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -141,11 +130,12 @@
               "RelativeToolTip": "..\\StateMachine\\StateMachine.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T15:45:38.337Z"
+              "WhenOpened": "2025-09-01T15:45:38.337Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "PlayerLogic.cs",
               "DocumentMoniker": "D:\\\u5E38\u7528\\\u6587\u6863\\platformexplorer\\player\\PlayerLogic.cs",
               "RelativeDocumentMoniker": "..\\..\\platformexplorer\\player\\PlayerLogic.cs",
@@ -156,15 +146,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "PlatformExplorer.csproj",
-              "DocumentMoniker": "D:\\\u5E38\u7528\\\u6587\u6863\\GODOTPLATFORMEXPLORER\\PLATFORMEXPLORER\\PlatformExplorer.csproj",
+              "DocumentMoniker": "D:\\\u5E38\u7528\\\u6587\u6863\\godotplatformexplorer\\platformexplorer\\PlatformExplorer.csproj",
               "RelativeDocumentMoniker": "PlatformExplorer.csproj",
-              "ToolTip": "D:\\\u5E38\u7528\\\u6587\u6863\\GODOTPLATFORMEXPLORER\\PLATFORMEXPLORER\\PlatformExplorer.csproj",
+              "ToolTip": "D:\\\u5E38\u7528\\\u6587\u6863\\godotplatformexplorer\\platformexplorer\\PlatformExplorer.csproj",
               "RelativeToolTip": "PlatformExplorer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-28T12:02:04.152Z"
+              "WhenOpened": "2025-08-28T12:02:04.152Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -174,7 +165,7 @@
               "RelativeDocumentMoniker": "player\\Player.cs",
               "ToolTip": "D:\\\u5E38\u7528\\\u6587\u6863\\godotplatformexplorer\\platformexplorer\\player\\Player.cs",
               "RelativeToolTip": "player\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T05:58:37.627Z",
               "EditorCaption": ""
