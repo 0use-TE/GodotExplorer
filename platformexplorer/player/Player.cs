@@ -7,25 +7,25 @@ public partial class Player : Node2D
     private AnimatedSprite2D _animatedSprite;
 
 
-    // 配置参数
+    //Congifure Args
     private float _horizontalSpeed = 32 * 2.5f;       // 水平移动速度
     private float _verticalSpeed = 32 * 2.5f;       // 水平移动速度
-    private float _speed = 32 * 5;       // 水平移动速度
-    private float _jumpForce = -350f;    // 跳跃向上力（负值）
-    private int _currentJumpCount = 0;
-    private int _maxJumpCount = 2;       // 最大跳跃次数（1表示单跳，2表示双跳）
 
-    //输入相关
+    //Input-Related
     private PlayerInput _playerInput = new PlayerInput();
-    //状态相关
+
+    //State-Related
     private StateMachine _playerStateMachine;
     private PlayerIdleState _playerIdleState;
     private PlayerWalkState _playerWalkState;
 
+    //Attack
 
 
+    //Animation Flag
     private bool _isIdle;
     private bool _isWalk;
+
     public override void _Ready()
     {
         _body = GetNode<CharacterBody2D>(nameof(CharacterBody2D));
@@ -39,16 +39,16 @@ public partial class Player : Node2D
         _playerIdleState.AddEnter(() => _isIdle = true).AddEnter(() => SetVelocity(0, 0)).
                 AddTransitions(() => Mathf.Abs(_playerInput.Horizontal) > 0.1f || Mathf.Abs(_playerInput.Vertical) > .1f, _playerWalkState).
                 AddExit(() => _isIdle = false);
-
+        //Walk
         _playerWalkState.AddEnter(() => _isWalk = true).
             AddTransitions(() => Mathf.Abs(_playerInput.Horizontal) < 0.1f && Mathf.Abs(_playerInput.Vertical) < .1f, _playerIdleState).
             AddPhysicsProcess((delta) => SetVelocity(_playerInput.Horizontal * _horizontalSpeed, _playerInput.Vertical * _verticalSpeed)).
             AddExit(() => _isWalk = false);
 
 
+
         _playerStateMachine.SetInitialState(_playerIdleState);
     }
-
 
     public override void _Process(double delta)
     {
@@ -59,7 +59,11 @@ public partial class Player : Node2D
             _animatedSprite.FlipH = true;
     }
 
+    // Animation finished  callbacks
+    public void OnAnimationFinished(string name)
+    {
 
+    }
     public override void _PhysicsProcess(double delta)
     {
         _playerStateMachine.PhysicsProcess(delta);

@@ -602,7 +602,7 @@ states/idle/position = Vector2(441.333, 29.3333)
 states/walk/node = SubResource("AnimationNodeAnimation_s4jxa")
 states/walk/position = Vector2(433.333, 214.667)
 transitions = ["EndNode", "StartNode", SubResource("AnimationNodeStateMachineTransition_2fvbb"), "Start", "StartNode", SubResource("AnimationNodeStateMachineTransition_ml7e8"), "StartNode", "idle", SubResource("AnimationNodeStateMachineTransition_ihjo1"), "idle", "EndNode", SubResource("AnimationNodeStateMachineTransition_dk1vr"), "StartNode", "walk", SubResource("AnimationNodeStateMachineTransition_oh5ij"), "walk", "EndNode", SubResource("AnimationNodeStateMachineTransition_hp4bs")]
-graph_offset = Vector2(0, -16.4144)
+graph_offset = Vector2(0, 224.46)
 
 [node name="Player" type="Node2D"]
 texture_filter = 1
@@ -612,7 +612,7 @@ script = ExtResource("1_hjaqi")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
 sprite_frames = SubResource("SpriteFrames_xo3ru")
-animation = &"Walk"
+animation = &""
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(0, -2)
