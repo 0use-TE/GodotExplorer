@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36401.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlatformExplorer", "PlatformExplorer.csproj", "{0FBE0DC7-9B25-4E93-8D59-919B67677398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodotStateMachine", "..\StateMachine\GodotStateMachine.csproj", "{81AEA5D1-27E4-E047-C0BE-06B242E5F27E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		ExportDebug|Any CPU = ExportDebug|Any CPU
+		ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FBE0DC7-9B25-4E93-8D59-919B67677398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FBE0DC7-9B25-4E93-8D59-919B67677398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FBE0DC7-9B25-4E93-8D59-919B67677398}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{0FBE0DC7-9B25-4E93-8D59-919B67677398}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{0FBE0DC7-9B25-4E93-8D59-919B67677398}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{0FBE0DC7-9B25-4E93-8D59-919B67677398}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+		{81AEA5D1-27E4-E047-C0BE-06B242E5F27E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81AEA5D1-27E4-E047-C0BE-06B242E5F27E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81AEA5D1-27E4-E047-C0BE-06B242E5F27E}.ExportDebug|Any CPU.ActiveCfg = Release|Any CPU
+		{81AEA5D1-27E4-E047-C0BE-06B242E5F27E}.ExportDebug|Any CPU.Build.0 = Release|Any CPU
+		{81AEA5D1-27E4-E047-C0BE-06B242E5F27E}.ExportRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{81AEA5D1-27E4-E047-C0BE-06B242E5F27E}.ExportRelease|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41D869B6-0214-4847-B377-8C25019D8351}
+	EndGlobalSection
+EndGlobal

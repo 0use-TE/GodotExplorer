@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://w8551qjwi5st"]
+
+[ext_resource type="PackedScene" uid="uid://7sl5pyqqr4ck" path="res://scene/player.tscn" id="1_wankv"]
+[ext_resource type="PackedScene" uid="uid://6q32hdt1olus" path="res://scene/testLevel.tscn" id="1_x5lxk"]
+[ext_resource type="PackedScene" uid="uid://berq5ceni1dmo" path="res://scene/GameManagerScene/GameManagerNode.tscn" id="3_765gx"]
+
+[node name="MainScene" type="Node2D"]
+
+[node name="Player" parent="." groups=["Player"] instance=ExtResource("1_wankv")]
+z_index = 1
+position = Vector2(2, -2)
+
+[node name="Map" type="Node2D" parent="."]
+position = Vector2(-92, 51)
+
+[node name="testLevel2" parent="Map" instance=ExtResource("1_x5lxk")]
+
+[node name="testLevel" parent="Map" instance=ExtResource("1_x5lxk")]
+
+[node name="GameManagerNode" parent="." instance=ExtResource("3_765gx")]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(11, 33)
+zoom = Vector2(4, 4)
+limit_smoothed = true
+editor_draw_limits = true

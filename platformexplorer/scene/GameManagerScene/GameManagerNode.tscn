@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://berq5ceni1dmo"]
+
+[ext_resource type="Script" uid="uid://0we8t15r7uwm" path="res://GameHander/AudioEventHandler.cs" id="1_titoj"]
+[ext_resource type="Script" uid="uid://bcsbxe3n3m8l6" path="res://GameHander/DIRegistration.cs" id="2_titoj"]
+[ext_resource type="Script" uid="uid://cme87yb6ib545" path="res://GameHander/ObjectPoolEventHandler.cs" id="3_hsfgm"]
+
+[node name="GameManagerNode" type="Node2D"]
+
+[node name="AudioEventHandler" type="Node2D" parent="."]
+script = ExtResource("1_titoj")
+
+[node name="DIRegistration" type="Node2D" parent="."]
+script = ExtResource("2_titoj")
+
+[node name="ObjectPoolEventHandler" type="Node2D" parent="."]
+script = ExtResource("3_hsfgm")

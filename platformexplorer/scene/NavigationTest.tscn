@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://dk7spfcfoo35k"]
+
+[ext_resource type="PackedScene" uid="uid://6q32hdt1olus" path="res://scene/testLevel.tscn" id="1_ubeqk"]
+[ext_resource type="Script" uid="uid://cf06o58fyee1u" path="res://TestNavigationAgent/TestNavigationPlayer.cs" id="2_1mnvm"]
+[ext_resource type="Texture2D" uid="uid://cbodngld208wf" path="res://icon.svg" id="2_uvpor"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1mnvm"]
+
+[node name="NavigationTest" type="Node2D"]
+
+[node name="testLevel" parent="." instance=ExtResource("1_ubeqk")]
+
+[node name="TestNavigationAgent" type="Node2D" parent="."]
+
+[node name="TestNavigationPlayer" type="CharacterBody2D" parent="TestNavigationAgent"]
+script = ExtResource("2_1mnvm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TestNavigationAgent/TestNavigationPlayer"]
+shape = SubResource("RectangleShape2D_1mnvm")
+
+[node name="Sprite2D" type="Sprite2D" parent="TestNavigationAgent/TestNavigationPlayer"]
+scale = Vector2(0.195, 0.195)
+texture = ExtResource("2_uvpor")
+
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="TestNavigationAgent/TestNavigationPlayer"]
+debug_enabled = true
+debug_use_custom = true
+debug_path_custom_color = Color(0, 0.234629, 0.00269135, 1)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(58, -13)
+zoom = Vector2(3.675, 3.675)
