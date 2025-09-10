@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://bbghtm5kdrpl"]
 
 [ext_resource type="Script" uid="uid://c0022j1wffw3u" path="res://BehaviorTreeTest/TestBt.cs" id="1_6pfnj"]
-[ext_resource type="PackedScene" uid="uid://berq5ceni1dmo" path="res://scene/GameManagerScene/GameManagerNode.tscn" id="1_qihi3"]
+[ext_resource type="PackedScene" uid="uid://berq5ceni1dmo" path="res://Scene/GameManagerScene/GameManagerNode.tscn" id="1_qihi3"]
 [ext_resource type="Texture2D" uid="uid://cbodngld208wf" path="res://icon.svg" id="3_qe5gr"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qe5gr"]

@@ -6,11 +6,11 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Godot.DependencyInjection" Version="0.4.1" />
-    <PackageReference Include="GroveGames.BehaviourTree.Godot" Version="0.4.9" />
     <PackageReference Include="MediatR" Version="13.0.0" />
     <PackageReference Include="Microsoft.Extensions.ObjectPool.DependencyInjection" Version="8.10.0" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\GodotBehaviorTree\GodotBehaviorTree.csproj" />
     <ProjectReference Include="..\StateMachine\GodotStateMachine.csproj" />
   </ItemGroup>
 </Project>  
