@@ -5,4 +5,3 @@ namespace PlatformExplorer.GameHandler
     {
     }
 }
-

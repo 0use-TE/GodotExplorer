@@ -7,7 +7,10 @@
   </PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="GroveGames.BehaviourTree.Godot" Version="0.4.9" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="BehaviourTree" Version="1.0.73" />
 	</ItemGroup>
 
 </Project>
