@@ -6,11 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-	<ItemGroup>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <PackageReference Include="BehaviourTree" Version="1.0.73" />
-	</ItemGroup>
-
 </Project>

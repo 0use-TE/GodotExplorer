@@ -15,7 +15,7 @@ public partial class TestBt : CharacterBody2D
     private EnemyIdle _enemyIdle;
     private EnemyFollow _enemyFollow;
 
-    //
+    // 
     private bool _isIdle;
     private bool _isFollow;
 

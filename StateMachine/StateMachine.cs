@@ -3,7 +3,7 @@
     // 状态机管理器
     public class StateMachine
     {
-        private BaseState _currentState;
+        private BaseState ?_currentState;
         public BaseState GetCurrentState() => _currentState;
         public void SetInitialState(BaseState initialState)
         {
