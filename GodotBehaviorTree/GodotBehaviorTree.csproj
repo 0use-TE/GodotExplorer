@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="ActionNodes\" />
+    <Folder Include="CompositeNodes\" />
+  </ItemGroup>
+
 </Project>
