@@ -5,6 +5,5 @@ namespace PlatformExplorer.GameHandler
     public partial class DependencyInjectionNode : DependencyInjectionManagerNode
     {
 
-
     }
 }

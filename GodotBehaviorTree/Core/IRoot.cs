@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GodotBehaviorTree.Core
 {
-	public class BehaviourRoot 
-	{
-	}
+    public interface IRoot:ICompositeNode
+    {
+    }
 }
